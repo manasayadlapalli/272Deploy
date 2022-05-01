@@ -4,17 +4,15 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "start": "next start",
-        "build": "next build",
+        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
         "lint": "yarn eslint && yarn stylelint \"**/*.ts\"",
         "test": "jest",
         "test:watch": "jest --watch",
         "test:watch:quick": "yarn test:watch --no-coverage",
         "test:coverage": "jest --coverage"
     },
-    "engines": {
-        "node": "17.7.1"
-    },
+    
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "global": "^4.4.0",

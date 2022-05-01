@@ -1,5 +1,6 @@
 import React, { FC, ForwardedRef, forwardRef } from 'react';
 
+import { StyledButton } from './styles';
 
 type ButtonProps = {
     children?: any;

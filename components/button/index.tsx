@@ -1,6 +1,5 @@
 import React, { FC, ForwardedRef, forwardRef } from 'react';
 
-import { StyledButton } from './styles';
 
 type ButtonProps = {
     children?: any;
@@ -12,9 +11,9 @@ const Button: FC<ButtonProps> = forwardRef(
         const { ...remainingProps } = props;
 
         return (
-            <StyledButton ref={ref} {...remainingProps}>
+            <button ref={ref} {...remainingProps}>
                 {children}
-            </StyledButton>
+            </button>
         );
     }
 );

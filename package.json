@@ -12,7 +12,11 @@
         "test:watch:quick": "yarn test:watch --no-coverage",
         "test:coverage": "jest --coverage"
     },
+    "engines": {
+        "node": "17.7.1"
+    },
     "dependencies": {
+        "bcryptjs": "^2.4.3",
         "global": "^4.4.0",
         "next": "^10.0.5",
         "node-gyp": "^7.1.2",

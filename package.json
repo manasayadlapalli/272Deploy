@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "start": "next start",
-        "build": "next build",
+        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
         "lint": "yarn eslint && yarn stylelint \"**/*.ts\"",
         "test": "jest",
         "test:watch": "jest --watch",
@@ -26,14 +26,16 @@
         "remark": "^13.0.0",
         "remark-html": "^13.0.1",
         "semantic-ui-css": "^2.4.1",
-        "semantic-ui-react": "^2.0.3"
+        "semantic-ui-react": "^2.0.3",
+        "styled-theme": "^0.3.3",
+        "theme-colors": "^0.0.5"
     },
     "devDependencies": {
         "@artsy/fresnel": "^1.2.2",
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",
         "@emotion/react": "^11.1.5",
-        "@emotion/styled": "^11.1.5",
+        "@emotion/styled": "^11.8.1",
         "@testing-library/dom": "^7.29.2",
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.3",

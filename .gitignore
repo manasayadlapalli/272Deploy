@@ -1,113 +1,114 @@
-/node_modules
-/.pnp
-.pnp.js
+# /node_modules
+# /.pnp
+# .pnp.js
 
-/coverage
+# /coverage
 
-/.next/
-/out/
+# /.next/
+# /out/
 
-/build
+# /build
 
-.DS_Store
-*.pem
+# .DS_Store
+# *.pem
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
 
 
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
-.vercel
+# .vercel
 
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# lerna-debug.log*
 
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-pids
-*.pid
-*.seed
-*.pid.lock
+# pids
+# *.pid
+# *.seed
+# *.pid.lock
 
-lib-cov
+# lib-cov
 
-# Coverage directory used by tools like istanbul
-coverage
-*.lcov
+# # Coverage directory used by tools like istanbul
+# coverage
+# *.lcov
 
-# nyc test coverage
-.nyc_output
+# # nyc test coverage
+# .nyc_output
 
-.grunt
+# .grunt
 
-bower_components
+# bower_components
 
-.lock-wscript
+# .lock-wscript
 
-build/Release
+# build/Release
 
-node_modules/
-jspm_packages/
+# node_modules/
+# jspm_packages/
 
-typings/
+# typings/
 
-*.tsbuildinfo
+# *.tsbuildinfo
 
-.npm
+# .npm
 
-.eslintcache
+# .eslintcache
 
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
+# .rpt2_cache/
+# .rts2_cache_cjs/
+# .rts2_cache_es/
+# .rts2_cache_umd/
 
-.node_repl_history
+# .node_repl_history
 
-*.tgz
+# *.tgz
 
-.yarn-integrity
+# .yarn-integrity
 
-.env
-.env.test
+# .env
+# .env.test
 
-.cache
+# .cache
 
-.next
+# .next
 
-.nuxt
-dist
+# .nuxt
+# dist
 
-.cache/
+# .cache/
 
-# vuepress build output
-.vuepress/dist
+# # vuepress build output
+# .vuepress/dist
 
-.serverless/
+# .serverless/
 
-.fusebox/
+# .fusebox/
 
-.dynamodb/
+# .dynamodb/
 
-.tern-port
+# .tern-port
 
-.idea/
+# .idea/
 
-.vercel
-/.huskyrc
-/.stylelintrc
-.lintstagedrc
-/commitlint.config.js
-.eslintrc.json
-.babel.rc
-tsconfig.json
+# .vercel
+# /.huskyrc
+# /.stylelintrc
+# .lintstagedrc
+# /commitlint.config.js
+# .eslintrc.json
+# .babel.rc
+# tsconfig.json
+node_modules
